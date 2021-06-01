@@ -13,8 +13,6 @@ interface props{
   quantidade?: any
 }
 
-
-
 export function RenderItem ({item, index}: props){
   const { Add, cast, setValue, value } = useCart();
   const [buttonNew, setButtonNew] = useState(false);

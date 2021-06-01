@@ -32,9 +32,10 @@ export default function CartProvider({children}){
     setCast([...newCast])
   }
 
+
   function RemoveAll(index, item){
     const newCast = cast.splice(index, index)
-    cast.forEach(function(item){
+    cast.forEach(function(item) {
       item.quantidade = 0;
     });
     setCast([...newCast])

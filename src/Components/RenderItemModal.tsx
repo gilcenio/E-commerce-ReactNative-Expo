@@ -13,7 +13,7 @@ interface props{
 }
 
 export function RenderItemModal({item, index}: props) {
-  const { value, setValue, Remove} = useCart()
+  const { value, setValue } = useCart()
   const quantidades = item[6] + 1
   const [quantidade, setQuantidade] = useState(1)
   
