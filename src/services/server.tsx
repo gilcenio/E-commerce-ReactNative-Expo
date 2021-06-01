@@ -95,96 +95,96 @@ window.server = createServer({
             peso: "500 g",
             quantidade: 0
           },
-          // {
-          //   id: '10',
-          //   description: "Biscoito Maria",
-          //   image:"https://static.paodeacucar.com/img/uploads/1/293/665293.png",
-          //   price: 6.75,
-          //   date: "Sat Oct 12 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "400 g",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '11',
-          //   description: "Café Torrado",
-          //   image:"https://superprix.vteximg.com.br/arquivos/ids/177936-600-600/Cafe-Torrado-e-Moido-Melitta-Tradicional-500g-Caixa.png?v=636698465698800000",
-          //   price: 5.95,
-          //   date: "Sat Oct 13 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "500 g",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '12',
-          //   description: "Leite em Pó",
-          //   image:"https://www.embare.com.br/wp-content/uploads/2013/06/leite-po-integral-400g.png",
-          //   price: 8.11,
-          //   date: "Sat Oct 15 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "400 g",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '13',
-          //   description: "Bolacha",
-          //   image:"https://motamais.com.br/wp-content/uploads/2020/06/biscoito-bono-recheado-chocolate.png",
-          //   price: 2.79,
-          //   date: "Sat Oct 17 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "140 g",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '14',
-          //   description: "Ketchup",
-          //   image:"https://emporioquatroestrelas.vteximg.com.br/arquivos/ids/158930-1000-1000/KETCHUP1.png?v=637019881339300000",
-          //   price: 8.22,
-          //   date: "Sat Oct 19 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "320 g",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '15',
-          //   description: "Maionese",
-          //   image:"https://trimais.vteximg.com.br/arquivos/ids/1008431-1000-1000/foto_original.jpg?v=637395837185870000",
-          //   price: 4.49,
-          //   date: "Sat Oct 20 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "500 g",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '16',
-          //   description: "Vinagre",
-          //   image:"https://cdn-cosmos.bluesoft.com.br/products/7898286190484",
-          //   price: 3.65,
-          //   date: "Sat Oct 21 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "500 ml",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '17',
-          //   description: "Oléo de Soja",
-          //   image:"https://www.paodeacucar.com/img/uploads/1/281/565281.png",
-          //   price: 7.89,
-          //   date: "Sat Oct 23 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "900 ml",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '18',
-          //   description: "Sardinha",
-          //   image:"https://emporioquatroestrelas.vteximg.com.br/arquivos/ids/160034-1000-1000/Sardinha-com-Oleo-125g-Coqueiro.png?v=637251472889900000",
-          //   price: 4.55,
-          //   date: "Sat Oct 26 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "125 g",
-          //   quantidade: 0
-          // },
-          // {
-          //   id: '19',
-          //   description: "Kitut",
-          //   image:"https://trimais.vteximg.com.br/arquivos/ids/1008313-410-410/foto_original.jpg?v=637395836234570000",
-          //   price: 9.78,
-          //   date: "Sat Oct 27 2016 00:00:00 GMT-0700 (PDT)",
-          //   peso: "320 g",
-          //   quantidade: 0
-          // },
+          {
+            id: '10',
+            description: "Biscoito Maria",
+            image:"https://static.paodeacucar.com/img/uploads/1/293/665293.png",
+            price: 6.75,
+            date: "Sat Oct 12 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "400 g",
+            quantidade: 0
+          },
+          {
+            id: '11',
+            description: "Café Torrado",
+            image:"https://superprix.vteximg.com.br/arquivos/ids/177936-600-600/Cafe-Torrado-e-Moido-Melitta-Tradicional-500g-Caixa.png?v=636698465698800000",
+            price: 5.95,
+            date: "Sat Oct 13 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "500 g",
+            quantidade: 0
+          },
+          {
+            id: '12',
+            description: "Leite em Pó",
+            image:"https://www.embare.com.br/wp-content/uploads/2013/06/leite-po-integral-400g.png",
+            price: 8.11,
+            date: "Sat Oct 15 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "400 g",
+            quantidade: 0
+          },
+          {
+            id: '13',
+            description: "Bolacha",
+            image:"https://motamais.com.br/wp-content/uploads/2020/06/biscoito-bono-recheado-chocolate.png",
+            price: 2.79,
+            date: "Sat Oct 17 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "140 g",
+            quantidade: 0
+          },
+          {
+            id: '14',
+            description: "Ketchup",
+            image:"https://emporioquatroestrelas.vteximg.com.br/arquivos/ids/158930-1000-1000/KETCHUP1.png?v=637019881339300000",
+            price: 8.22,
+            date: "Sat Oct 19 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "320 g",
+            quantidade: 0
+          },
+          {
+            id: '15',
+            description: "Maionese",
+            image:"https://trimais.vteximg.com.br/arquivos/ids/1008431-1000-1000/foto_original.jpg?v=637395837185870000",
+            price: 4.49,
+            date: "Sat Oct 20 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "500 g",
+            quantidade: 0
+          },
+          {
+            id: '16',
+            description: "Vinagre",
+            image:"https://cdn-cosmos.bluesoft.com.br/products/7898286190484",
+            price: 3.65,
+            date: "Sat Oct 21 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "500 ml",
+            quantidade: 0
+          },
+          {
+            id: '17',
+            description: "Oléo de Soja",
+            image:"https://www.paodeacucar.com/img/uploads/1/281/565281.png",
+            price: 7.89,
+            date: "Sat Oct 23 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "900 ml",
+            quantidade: 0
+          },
+          {
+            id: '18',
+            description: "Sardinha",
+            image:"https://emporioquatroestrelas.vteximg.com.br/arquivos/ids/160034-1000-1000/Sardinha-com-Oleo-125g-Coqueiro.png?v=637251472889900000",
+            price: 4.55,
+            date: "Sat Oct 26 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "125 g",
+            quantidade: 0
+          },
+          {
+            id: '19',
+            description: "Kitut",
+            image:"https://trimais.vteximg.com.br/arquivos/ids/1008313-410-410/foto_original.jpg?v=637395836234570000",
+            price: 9.78,
+            date: "Sat Oct 27 2016 00:00:00 GMT-0700 (PDT)",
+            peso: "320 g",
+            quantidade: 0
+          },
         ],
       }
     })

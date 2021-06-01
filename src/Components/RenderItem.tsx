@@ -16,8 +16,7 @@ interface props{
 
 
 export function RenderItem ({item, index}: props){
-  const { Add, cast, Remove, setValue, value } = useCart();
-  const accountant = Object.keys(cast).length;
+  const { Add, cast, setValue, value } = useCart();
   const [buttonNew, setButtonNew] = useState(false);
   const quantidades = item.quantidade + 1
   const [quantidade, setQuantidade] = useState(1)

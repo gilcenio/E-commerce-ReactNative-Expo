@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useRef } from 'react'
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from  'react-native'
 import { Header } from  '../Components/Header'
 import { Separator } from '../Components/Separator'

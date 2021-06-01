@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FlatList, Image, View, StyleSheet, Text, ScrollView} from 'react-native'
+import { Image, View, StyleSheet, ScrollView} from 'react-native'
 import LottieView from 'lottie-react-native'
 import '../services/server'
 

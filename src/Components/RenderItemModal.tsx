@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Image, View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native'
+import React, { useState } from 'react'
+import { Image, View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { useCart } from '../Context/Cart'
 
 interface props{
@@ -7,14 +7,13 @@ interface props{
   image?: string
   price?: any
   date?: string
-  item?: any
+  item?: any  
   index?: any
   peso?: any
 }
 
 export function RenderItemModal({item, index}: props) {
-  const {Add, cast, value, setValue, Remove} = useCart()
-  const accountant = Object.keys(cast).length
+  const { value, setValue, Remove} = useCart()
   const quantidades = item[6] + 1
   const [quantidade, setQuantidade] = useState(1)
   
@@ -27,9 +26,6 @@ export function RenderItemModal({item, index}: props) {
   function Subtracao(){
     setQuantidade(quantidade - quantidades)
     setValue(value - item[3])
-    item.forEach(function(item) {
-      item[6]= value;
-    });
   }
 
   return(

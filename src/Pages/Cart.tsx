@@ -73,7 +73,6 @@ export function Cart(){
             onEndReached={Tempo}
             onEndReachedThreshold={0}
             refreshing={isLoading}
-            // onRefresh={Tempo}
             showsHorizontalScrollIndicator={false}
             pagingEnabled={false}
           />
